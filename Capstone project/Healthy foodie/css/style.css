@@ -1,0 +1,258 @@
+/*-------------------------------------
+HOME
+---------------------------------------*/
+
+/*============= NAVIGATION =============*/
+
+.navbar-brand img{
+  height: 4rem;
+}
+
+
+.navbar{
+  background: #5A3F37;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C7744, #5A3F37);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C7744, #5A3F37); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  box-shadow: 0 .5rem .5rem rgba(0,0,0,.1);
+  z-index: 1;
+  margin-bottom: 10px;
+}
+ 
+.navbar #sitename{
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.nav-item{
+  padding: .5rem;
+}
+
+.nav-link{
+  color: #ffffff!important;
+  padding: .5rem;
+  opacity: 1;
+}
+
+.nav-link.active,
+.nav-link:hover{
+  color: #ffffff;
+  opacity: .5;
+}
+
+
+/*============= CAROUSEL =============*/
+
+
+.carousel-control-prev, .carousel-control-next{
+  filter: invert(100%);
+}
+
+.carousel-inner.carousel-item img {
+  margin: 0;
+}
+
+#carousel{
+  box-shadow: 0 1rem 1rem rgba(0,0,0,.1);
+}
+.carousel-inner{
+  max-height: 36rem!important;
+}
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active{
+  transition: transform 1.2s ease;
+
+}
+
+#carousel>.container{
+  margin: 0 auto;
+}
+
+
+/*===== FIXED BACKGROUND IMG =====*/
+
+.fixed{
+  background-image: url('../images/fix-bg-img.jpg');
+  position: fixed;
+
+}
+.fixed-background{
+  padding: 10rem 0;
+}
+
+.fixed-background h2{
+  font-family: serif;
+  font-size: 3rem;
+  color: #592525;
+  padding-bottom: 20px;
+  font-weight: bolder;
+}
+
+.fixed-background p{
+  font-weight: bold;
+  background-color: #ffffff;
+  opacity: .8;
+  color: #000;
+  border-radius: 8px;
+}
+
+/*-- Fixed Background Image --*/
+.fixed-background {
+  position: relative;
+  width: 100%;
+  z-index: 1000!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -999 !important;
+}
+.fixed {
+  z-index: -999!important;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+.fix-img-border{
+  background-image: linear-gradient(to right, #df4d1f, #228b4e);
+  min-height: 0!important;
+  padding: .4rem 0!important;
+}
+
+/*===========End of fixed background=========*/
+
+/*=======================2 Column Section=================>*/
+#todayspecials img{
+width: 100%;
+padding: 4px;
+}
+
+#todayspecials h3{
+  font-size: 2.5rem;
+}
+
+/*============= FOOTER =============*/
+footer{
+  background-color: #122b0e;
+  /*padding: 1rem 2rem 3rem;*/
+  padding: 1rem;
+
+}
+footer img{
+  height: 3rem;
+ /* margin: 1rem auto; */
+}
+footer p,footer a,
+.socket a {
+  color: white;
+  text-decoration: none;
+}
+
+ul.social{
+  list-style-type: none;
+  display: flex;
+  max-width: 16rem;
+  margin: 0;/* margin: 0 auto;*/
+  padding: 0;
+}
+
+ul.social li{
+  margin: 0 auto;
+}
+
+ul.social li .fa {
+    color: #ffffff;
+    font-size: 25px;
+    line-height: 20px;
+    transition: .5s;
+}
+
+ ul.social li:nth-child(1) .fa:hover {
+    color: #3b5999;
+}
+ ul.social li:nth-child(2) .fa:hover {
+    color: #55acee;
+}
+ ul.social li:nth-child(3) .fa:hover {
+    color: #e4405f;
+}
+ ul.social li:nth-child(4) .fa:hover {
+    color: #cd201f;
+}
+}
+
+.footer .email a{
+  text-decoration: none;
+}
+
+/*----------------------------------------
+ABOUT US
+-----------------------------------------*/
+
+.about-us h1{
+  padding-top: 80px;
+  color: #205322c7;
+  padding-bottom: 20px;
+}
+
+.about-us{
+  padding-bottom: 40vh;
+}
+/*----------------------------------------
+CONTESTS
+-----------------------------------------*/
+
+.contests h2{
+  padding-top: 80px;
+  color: #205322c7;
+  padding-bottom: 20px;
+}
+
+.contests{
+  padding-bottom: 25vh;
+}
+
+#contestsform{
+  padding-top: 145px;
+}
+
+
+/* -------------------------------------
+          CONTACT US 
+-----------------------------------------*/
+.contact-us{
+  margin-bottom: 40vh;
+}
+
+.section-heading>h2{
+  padding-top: 80px;
+  color: #205322c7;
+  padding-bottom: 20px;
+}
+
+.fieldset button{
+  color: #fbf7f7;
+  background-color: #3c863f;
+}
+
+.contact-us #message{
+  padding-bottom: 10px;
+}
+

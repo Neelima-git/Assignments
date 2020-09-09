@@ -47,10 +47,6 @@ background: linear-gradient(to right, #2C7744, #5A3F37); /* W3C, IE 10+/ Edge, F
 /*============= CAROUSEL =============*/
 
 
-.carousel-control-prev, .carousel-control-next{
-  filter: invert(100%);
-}
-
 .carousel-inner.carousel-item img {
   margin: 0;
 }
@@ -215,6 +211,13 @@ ABOUT US
 .about-us{
   padding-bottom: 40vh;
 }
+
+@media (min-width: 992px) {
+  .about-us .container{
+    width: 50vw;
+  }
+  
+}
 /*----------------------------------------
 CONTESTS
 -----------------------------------------*/
@@ -256,3 +259,9 @@ CONTESTS
   padding-bottom: 10px;
 }
 
+@media (min-width: 576px) {
+  #sitename span{
+    font-size: 1rem;
+  }
+  
+}
